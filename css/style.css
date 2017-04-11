@@ -1,0 +1,102 @@
+body {
+  font-size: 16px; }
+  body #header {
+    color: #000; }
+
+.container,
+.container-fluid {
+  padding: 0;
+  margin: 0; }
+
+#content .col-md-6 {
+  padding: 64px; }
+
+#content .right {
+  background-color: #78674b;
+  color: #463c2c;
+  font-size: 14px; }
+  #content .right .list-group {
+    margin: 16px; }
+  #content .right .list-group, #content .right .list-group-item {
+    background-color: transparent;
+    border-color: #5f513b; }
+  #content .right ul {
+    color: #463c2c;
+    font-size: 1.2em;
+    font-weight: bold; }
+  #content .right h1, #content .right h2, #content .right h3, #content .right h4 {
+    color: #14110c; }
+  #content .right .wrapper {
+    border-left: 1px solid #5f513b;
+    padding-left: 32px;
+    min-height: 100vh; }
+  #content .right .sec {
+    position: relative; }
+    #content .right .sec h3 {
+      margin-bottom: 16px; }
+    #content .right .sec .anchor {
+      width: 20px;
+      height: 18px;
+      display: block;
+      background: #0c1011;
+      position: absolute;
+      left: -51px;
+      border-radius: 50%;
+      transform: scale(1.4); }
+      #content .right .sec .anchor:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 16px;
+        border-width: 7px;
+        top: 2px;
+        border-style: solid;
+        border-color: transparent transparent transparent #14110c; }
+      #content .right .sec .anchor:after {
+        content: "";
+        display: block;
+        background: #b1bbbc;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        left: 0;
+        border-radius: 50%;
+        transform: scale(0.6); }
+
+#content .left {
+  color: #4f5a5e;
+  background: linear-gradient(#b1bbbc, #d7e0e7); }
+  #content .left .logo {
+    overflow: hidden;
+    width: 155px;
+    height: 155px;
+    border-radius: 32%;
+    transform: rotate(45deg);
+    border: 2px solid #03080b;
+    position: relative; }
+    #content .left .logo img {
+      max-width: 320px;
+      transform: rotate(-60deg);
+      position: absolute;
+      top: -32px;
+      right: -99px; }
+  #content .left .job {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #03080b; }
+  #content .left .ico {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background: #03080b;
+    border-radius: 50%;
+    margin: 4px;
+    color: #d7e0e7; }
+  #content .left hr {
+    border-color: rgba(157, 157, 157, 0.48); }
+
+#content .reset {
+  margin: 0;
+  padding: 0; }
